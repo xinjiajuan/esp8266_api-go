@@ -1,0 +1,12 @@
+server:
+  listen: 3660
+  path: /dht22
+  tls:
+    enable: true
+    certFile: "cert/localhost+2.pem"
+    keyFile: "cert/localhost+2-key.pem"
+  databases:
+  host: '192.168.2.207:3306'
+  user: 'user'
+  passwd: 'passwd'
+  databasesName: 'databases'
